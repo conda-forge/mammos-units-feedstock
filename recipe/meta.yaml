@@ -1,5 +1,5 @@
 {% set name = "mammos-units" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mammos_units-{{ version }}.tar.gz
-  sha256: c4dd2d9961bb4b2a9bd4cc310a967c8682f64ffd6d673d04788e377f53d53e5f
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/mammos_units-{{ version }}.tar.gz
+  sha256: 4f817cd1370e404ce421377f300ef84d4c30d62a226c3ba7722f8d37ef4bdb56
 
 build:
   noarch: python
